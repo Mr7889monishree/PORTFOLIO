@@ -381,6 +381,13 @@ nav .fas{
     .about-col-2{
         font-size: 14px;
     }
+    .tab-link{
+        margin-right: 50px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+    }
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
@@ -437,6 +444,13 @@ nav .fas{
     .about-col-2{
         font-size: 14px;
     }
+    .tab-link{
+        margin-right: 50px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+    }
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
@@ -492,6 +506,13 @@ nav .fas{
     }
     .about-col-2{
         font-size: 14px;
+    }
+    .tab-link{
+        margin-right: 50px;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
     }
     .contact-left,.contact-right{
         flex-basis: 100%;

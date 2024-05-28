@@ -335,10 +335,10 @@ nav .fas{
 @media only screen and (max-width:600px) {
     .header-text {
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 25px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 35px;
 
     }
     nav .fas{
@@ -383,7 +383,7 @@ nav .fas{
     }
     .tab-link{
         margin-right: 50px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: 500;
         cursor: pointer;
         position: relative;
@@ -399,10 +399,10 @@ nav .fas{
 @media screen and (max-width:768px) {
     .header-text {
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 25px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 35px;
 
     }
     nav .fas{
@@ -446,7 +446,7 @@ nav .fas{
     }
     .tab-link{
         margin-right: 50px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: 500;
         cursor: pointer;
         position: relative;
@@ -474,10 +474,10 @@ nav .fas{
     }
     .header-text {
         margin-top: 20%;
-        font-size: 16px;
+        font-size: 20px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 35px;
 
     }
     /* nav ul{
@@ -509,7 +509,7 @@ nav .fas{
     }
     .tab-link{
         margin-right: 50px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: 500;
         cursor: pointer;
         position: relative;

@@ -378,6 +378,12 @@ nav .fas{
     .about-col-1{
         margin-bottom: 30px;
     }
+    .about-col-1 img{
+        width: 70%;
+        height: 45vh;
+        border-radius: 15px;
+        
+    }
     .about-col-2{
         font-size: 14px;
     }
@@ -444,6 +450,12 @@ nav .fas{
     .about-col-2{
         font-size: 14px;
     }
+    .about-col-1 img{
+        width: 70%;
+        height: 45vh;
+        border-radius: 15px;
+        
+    }
     .tab-link{
         margin-right: 50px;
         font-size: 30px;
@@ -496,8 +508,8 @@ nav .fas{
         flex-basis: 100%;
     }
     .about-col-1 img{
-        width: 90%;
-        height: 50vh;
+        width: 70%;
+        height: 45vh;
         border-radius: 15px;
         
     }

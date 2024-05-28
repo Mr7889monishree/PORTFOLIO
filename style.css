@@ -73,7 +73,7 @@ nav ul li a:hover::after{
     color:#ff004f;
 }
 
-/*----------------------about--------------------------*/
+
 #about{
     padding: 80px 0px;
     color: #ababab;
@@ -141,7 +141,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-/*----------------------skills-----------------*/
+
 #skills{
     padding: 30px 0px;
 }
@@ -186,7 +186,7 @@ nav ul li a:hover::after{
     background:#ff004f ;
     transform: translateY(-10px);
 }
-/*----------------projects-------------------*/
+
 #projects{
     padding: 50px 0px;
 }
@@ -263,7 +263,7 @@ nav ul li a:hover::after{
 .btn:hover{
     background-color: #ff004f;
 }
-/*------------------------contacts------------------------------------*/
+
 .contact-left{
     flex-basis: 35%;
 
@@ -332,7 +332,6 @@ form .btn2{
 nav .fas{
     display: none;
 }
-/* --------------------css for small screen-------------------- */
 @media only screen and (max-width:600px) {
     .header-text {
         margin-top: 100%;

@@ -1,6 +1,7 @@
 Portfolio Showcase 🌟
 
 Description
+
 My Portfolio Showcase is a web-based project designed to showcase my skills and projects to potential employers, clients, or collaborators. It serves as a professional introduction and highlights my expertise in web development using HTML, CSS, and JavaScript.
 
 Features

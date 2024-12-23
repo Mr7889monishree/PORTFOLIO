@@ -1,13 +1,283 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta viewport="content" Content="width=device-width initial-scale=1.0">
+        <meta content="Name" Author="Monishree">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/eee25b111c.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="./images/portfoliol.png" type="image/x-icon">
+
+    </head>
+<body>
+    <div id="header">
+        <div class="container reveal">
+            <nav>
+                <img src="./images/logomoni.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer | programmer</p>
+                <h1>Hi I'm <span color="">Monishree</span><br> </h1>
+                <a href="https://wa.link/hykhso" class="btn btn2">Connect With Me</a>
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="about">
+        <div class="container reveal">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/monishree.jpeg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p style="color:white">Hello everyone! I'm Monishree, a passionate BTECH-ECE student at SRM University of Science and Technology, Vadapalani Campus, Chennai. 💫🌎</p>
+                    <br>
+                    <p style="color:white">
+                        I've developed a strong foundation in web development and acquired proficiency in programming languages such as Python. This journey has been both challenging and rewarding.My goal is to become a skilled developer, creating innovative and challenging websites, while continually expanding my knowledge in both software and hardware.
+                    </p>
+                        <br>
+                    <p style="color:white">
+                        Currently pursuing my BTECH-ECE degree, I am driven to explore the endless possibilities that software and hardware technologies offer.My aim is to contribute to innovative projects and continue learning, all while making a positive impact in the tech world.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link"  onclick="opentab('internship')">Internship</p>
+                        <p class="tab-link"  onclick="opentab('education')">Education</p>
+                        <p class="tab-link"  onclick="opentab('achievement')">Achievement</p>
+
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Skill Vertex </span> <br> Web Developement
+                            <br> 5 Dec - Jan 20</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BTECH-DEGREE </span> <br> SRM University Of Science and Technology</li>
+                            <li><span>SCHOOL</span> <br> Excel Matric Higher Secondary School</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>Academic</span>
+                                <p> Overall profeciency Award for Top Rank in 1st Semester</p>
+                                <p>Overall profeciency Award For CGPA Score in 2nd and 3rd Semester</p>
+                                <p>Got Perfomance Based Scholarship Amount of Rupees 35,250 for First Rank Scorer in First Year</p>
+                        </li>
+                            <li><span>Co-Curiccular Activities</span> <p> Completed  python Course In Isoft Institute</p>
+                                <p> Solved Around 500 Python Programs In CodeChef Programming Site </p>
+                            <br>
+                        </li>
+                        <li><span>Clubs</span>
+                        <br>IEI Member-Volunteer</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  
+    <div id="skills">
+        <div class="container reveal">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skill-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Html5</h2>
+                    <p>HTML5, the latest version of Hypertext Markup Language, is the backbone of modern web development.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>Css</h2>
+                    <p>Cascading Style Sheets (CSS) is a fundamental technology used to style and format the layout of web pages.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>It enables developers to create interactive and dynamic features on web pages, such as animations, form validation, and user interface enhancements. </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Bootstrap</h2>
+                    <p>Bootstrap is a powerful front-end framework for developing responsive and mobile-first websites and web applications.</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React JS</h2>
+                    <p>React.js is a popular JavaScript library for building user interfaces, developed by Facebook. </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>Tailwind CSS</h2>
+                    <p>Tailwind CSS is a utility-first CSS framework that provides a modern and highly customizable approach to styling web interfaces.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Python is a versatile and high-level programming language known for its simplicity and readability.</p>
+                </div>
+               
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+   
+    <div id="projects">
+        <div class="container reveal">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>TO-DO-LIST App </h3>
+                        <p>App Created By the console Database itself called IndexedDB
+                        </p>
+                        <a href="https://github.com/Mr7889monishree/TO-DO-LIST-APP"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>Online Shopping Site 
+                        </p>
+                        <a href="https://github.com/Mr7889monishree/ECOMMERCE-SITE"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Book-Sky</h3>
+                        <p>Website where you can store your own handwritten story or quotes
+                        </p>
+                        <a href="https://github.com/Mr7889monishree/BOOK-SKY"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Mr7889monishree?tab=repositories" class="btn">See More</a>
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <div class="container reveal">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> monishreemoni2000@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9150448597</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Mr7889monishree"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.codechef.com/users/mr7889"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.linkedin.com/in/monishree-rameshbabu-226120263/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+            </div>
+                <div class="contact-right">
+                    <form id="form">
+
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" id="message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Monishree. All rights are Reserved <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-link");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        var sidemenu=document.getElementById("sidemenu")
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        
+        function openmenu(){
+            sidemenu.style.display="block"
+        }
+        function closemenu(){
+            sidemenu.style.display="none"
+        }
+        window.addEventListener('scroll',reveal)
+
+        function reveal(){ 
+            var reveals=document.querySelectorAll('.reveal')
+            for(var i=0; i<reveals.length; i++){
+                var windowheight=window.innerHeight;
+                var revealtop=reveals[i].getBoundingClientRect().top;
+                var revealpoint=100;
+                
+    
+                if(revealtop<windowheight-revealpoint){
+                    reveals[i].classList.add('active')
+                }
+                else{
+                    reveals[i].classList.remove('active')
+                }
+            }
+        }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyS2i3GECi-t3BDYBXfCkwy7d_RtYiHzFzxDlPa0zf6diXD6ILXDPuuytJJxsSB6wIRPA/exec'
+    const form = document.querySelector("#form")
+
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {
+         method: 'POST', 
+         body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+
+</body>
 </html>
+
